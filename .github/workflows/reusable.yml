@@ -3,7 +3,7 @@ name: Reusable Worflow
 on:
   workflow_call:
     inputs:
-      who-to-call:
+      who-to-greet:
         description: "the person to greet"
         type: string
         required: true
